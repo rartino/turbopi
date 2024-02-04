@@ -13,9 +13,12 @@ However, note that the videos for some reason are out of order, and, in particul
 The right order appears to be this:
 
 0. **Charge the batteries.**
+   
    Depending on what kit you have, they may be included or not.
-   I would suggest getting the one with batteries included, as it can be a bit difficult to get the right ones.
-   The specification says 2 x 18650, but apparently 18650 can come in somewhat different sizes depending on what protective circuits are included.
-   My kit with batteries also included an everActive LC200 charger.
+   I would suggest getting the kit with batteries since it can be a bit difficult to get the right ones.
+   The specification says 2 x 18650, but apparently 18650 can come in slightly different sizes depending on the protective circuit included.
+   My kit with batteries also included an everActive LC200 charger, which I didn't see specified anywhere (which had been nice to know, since this led me to order another one...)
 
-1. 
+1. **Check that you have the parts**
+
+   Use this video: https://youtu.be/VeeM6eauavM?si=aWWE4Y2o0569Epr6
