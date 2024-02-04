@@ -87,7 +87,7 @@ Otherwise connect an ethernet cable, log in using ssh again using the new, chang
 # Assembly of the robot
 
 HiWonder provides a [YouTube playlist](https://www.youtube.com/playlist?list=PLFbzd0m6AcmLzo53o2Tsa20BS350rWGMj) of assembly instructions. 
-However, note that the videos for some reason are out of order, and, in particular, there are quite a few feature videos mixed in among the others.
+However, note that the videos for some reason are out of order, and quite a few feature videos are mixed in among the others which can make it difficult to work out precisely what to watch and in what order.
 
 The correct order of the assembly vidoes appear to be as follows:
 
