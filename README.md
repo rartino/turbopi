@@ -115,7 +115,10 @@ The correct order of the assembly vidoes appear to be as follows:
 
    TurboPi Assembly: Assemble Servo+Ultrasonic Sensor+Camera: https://youtu.be/46S2ZhOeooE?si=OvOc0oJ7FajFvmZj
 
-7. **Last step: attach the head to the body**
+   **Note:** maybe I did something wrong, but I couldn't really get the horizontal servo to "stick" when only mounted the way it is done in the clip,
+   so I used some of the screw nuts to hold it into place.
+
+8. **Last step: attach the head to the body**
   
    TurboPi Assembly: Assemble Pan Tilt + Expansion Board Cover: https://youtu.be/vKcvwtmXHYs?si=jLAC-dm6xtmcSF
 
