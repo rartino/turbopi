@@ -84,7 +84,7 @@ At this point, try rebooting without a network cable attached, and see if the Ra
 Otherwise connect an ethernet cable, log in using ssh again using the new, changed, password and debug the network setup.
 (again, after connecting the cable you need to check the IP number it gets from your WIFI router to know what to connect to).
 
-# Assembly of the robot
+## Assembly of the robot
 
 HiWonder provides a [YouTube playlist](https://www.youtube.com/playlist?list=PLFbzd0m6AcmLzo53o2Tsa20BS350rWGMj) of assembly instructions. 
 However, note that the videos for some reason are out of order, and quite a few feature videos are mixed in among the others which can make it difficult to work out precisely what to watch and in what order.
@@ -116,4 +116,37 @@ The correct order of the assembly vidoes appear to be as follows:
   
    TurboPi Assembly: Assemble Pan Tilt + Expansion Board Cover: https://youtu.be/vKcvwtmXHYs?si=jLAC-dm6xtmcSF
 
-   
+## First startup and shutdown
+
+1. Make sure both the HiWionder board power switch and the battery compartment switch both are OFF.
+2. Insert the, now charged, batteries. Make sure to insert them correctly - Li-ion batteries can be dangerous if used/mounted incorrectly.
+3. Turn on the battery compartment power switch.
+4. Turn on the HiWonder board power switch.
+5. You should see LEDs coming on, and after a quite long while an audiable BEEP, indicating that the bootup process is done.
+
+There are two tiny buttons marked "KEY1" and "KEY2" on the HiWonder board that can be reached through the hole in the top cover.
+
+- "KEY1" runs a self test on all the motors and servos.
+- Holding down "KEY2" for a couple of seconds gracefully (well, semi-gracefully - we will get to fixing that) shuts down the Pi.
+  Regrettably there is no clear way to determine that it has worked, e.g., like turning off the LEDs.
+  For now I suggest using `ssh <ip>` or `ping <ip>` from your computer to verify sure the Raspberry Pi computer has shut down.
+
+Hence, to shut down the robot:
+
+1. Press and hold "KEY2". Try to verify in some way that the robot actually has shut down (at least press "KEY1" to make sure that does not trigger a self-test).
+2. Shut off the power switch on the HiWonder Pi board.
+3. Shut off the power switch on the battery compartment.
+
+## Installation and use of the mobile app
+
+Our ultimate intent may be to build our own software for the robot, it is nice to verify that the functions work as intended using the official software.
+
+Install the [WonderPi Android app published by Hiwonder](https://play.google.com/store/apps/details?id=com.Wonder.Pi)
+(Perhaps overly cautious, I would suggest running this not on your main device but, e.g., one used for mobile gaming, etc.)
+
+Connect your phone to the same WIFI network the TurboPi is connected to, start the app, and select "Turbo PI".
+
+Note that the app doesn't work very relibably, especially if the network connection to/from the phone and the robot is not robust.
+It is very easy for the robot to get stuck in a "moving" mode.
+I wouldn't regard that as an issue with the product, just that this is demo software is meant to showcase the possibilities of this kit, and wasn't written as a fully robust production-level robot controller.
+
