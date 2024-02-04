@@ -77,10 +77,10 @@ Once logged in, I did the following setup:
   with the "ssid" and "password" for the network you want the robot to use.
   I use our low-sequrity 'internet of things' WIFI network for this.
 
-  At this point, try rebooting without a network cable attached, and see if the Raspberry PI connects as intended
-  (check your WIFI router logs/info section to see what IP number it gets).
-  Otherwise connect an ethernet cable, log in using ssh again using the new, changed, password and debug the network setup.
-  (again, after connecting the cable you need to check the IP number it gets from your WIFI router to know what to connect to).
+At this point, try rebooting without a network cable attached, and see if the Raspberry PI connects as intended
+(check your WIFI router logs/info section to see what IP number it gets).
+Otherwise connect an ethernet cable, log in using ssh again using the new, changed, password and debug the network setup.
+(again, after connecting the cable you need to check the IP number it gets from your WIFI router to know what to connect to).
 
 # Assembly of the robot
 
