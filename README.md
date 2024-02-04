@@ -10,7 +10,8 @@ The TurboPI is a very nice metallic robot car kit for a Raspberry PI (4b) with a
 
 HiWonder provides a [YouTube playlist](https://www.youtube.com/playlist?list=PLFbzd0m6AcmLzo53o2Tsa20BS350rWGMj) of assembly instructions. 
 However, note that the videos for some reason are out of order, and, in particular, there are quite a few feature videos mixed in among the others.
-The right order appears to be this:
+
+The correct order appears to be this:
 
 0. **Charge the batteries.**
    
@@ -18,7 +19,31 @@ The right order appears to be this:
    I would suggest getting the kit with batteries since it can be a bit difficult to get the right ones.
    The specification says 2 x 18650, but apparently 18650 can come in slightly different sizes depending on the protective circuit included.
    My kit with batteries also included an everActive LC200 charger, which I didn't see specified anywhere (which had been nice to know, since this led me to order another one...)
+   Charging the batteries may take upwards 4-5 hours, and apparently the recommendation is to not leave them too long in the charger after they are fully charged.
 
-1. **Check that you have the parts**
+2. **Check contents**
 
-   Use this video: https://youtu.be/VeeM6eauavM?si=aWWE4Y2o0569Epr6
+   TurboPi Unboxing: https://youtu.be/VeeM6eauavM?si=aWWE4Y2o0569Epr6
+
+3. **Attach the expansion board to the raspberry pi**
+
+   - Optional: check the overview of the Pi expansion board: https://youtu.be/k4s9Au3EF6Y?si=PgsI46sfaEnbTByz  
+   - TurboPi Assembly: Assemble Raspberry Pi + Expansion Board: https://youtu.be/52N_oKo334s?si=4og4as8ZxAK10uI2
+
+4. **Attach the rasberry pi + expansion board to the main body**
+
+   TurboPi Assembly: Install Controller + Line Follower: https://youtu.be/F5LvTlMeYEM?si=ZsP-zIZYwazmX7WW
+
+5. **Install motors and wheels**
+
+   TurboPi Assembly: Install Motors + Wheels + Battery Holder Case: https://youtu.be/erCFkrZ1qKg?si=nWRbYBGvE_l8QWKt
+
+6. **Assmble the "head" with the camera**
+
+   TurboPi Assembly: Assemble Servo+Ultrasonic Sensor+Camera: https://youtu.be/46S2ZhOeooE?si=OvOc0oJ7FajFvmZj
+
+7. **Last step: attach the head to the body**
+  
+   TurboPi Assembly: Assemble Pan Tilt + Expansion Board Cover: https://youtu.be/vKcvwtmXHYs?si=jLAC-dm6xtmcSF
+
+   
