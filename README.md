@@ -36,8 +36,10 @@ Once you have written the image, you can boot the Rasberry Pi standalone using a
 
 You can now decide whether to connect a keyboard and screen to the Rasberry Pi to do the configuration, or whether to do it completely over the network.
 I did the latter, which worked fine.
+Note that since the Rasberry Pi is essentially a "real computer" you should, as far as you can, avoid just cutting power to it as that can corrupt the system image if you are unlucky.
+Always shut it down by logging in and issuing `shutdown -h now` or equivalent, or (see below) once the HiWonder board is mounted, use the 'shutdown' button on that board.
 
-For networking, out of the box the image sets up its own WIFI hotspot named something like `HW-XXXXXXXX`.
+Out of the box the image sets up its own WIFI hotspot named something like `HW-XXXXXXXX`.
 You can connect to it from your computer with the default password `hiwonder`.
 Once connected, the official documentation suggest connecting via VNC viewer, whereas I suggest simply using `ssh` (available as a terminal command on Linux, MacOSX and [recent versions of Windows](https://learn.microsoft.com/en-us/windows/terminal/tutorials/ssh#access-windows-ssh-client)).
 The default login info is:
