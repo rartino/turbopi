@@ -104,15 +104,18 @@ The correct order of the assembly vidoes appear to be as follows:
 
    TurboPi Assembly: Install Controller + Line Follower: https://youtu.be/F5LvTlMeYEM?si=ZsP-zIZYwazmX7WW
 
-4. **Install motors and wheels**
+   **Note:** it is crucial to do this step, including the cabling, before installing the motors and wheels.
+   (don't repeat my misstake...)
+
+5. **Install motors and wheels**
 
    TurboPi Assembly: Install Motors + Wheels + Battery Holder Case: https://youtu.be/erCFkrZ1qKg?si=nWRbYBGvE_l8QWKt
 
-5. **Assmble the "head" with the camera**
+6. **Assmble the "head" with the camera**
 
    TurboPi Assembly: Assemble Servo+Ultrasonic Sensor+Camera: https://youtu.be/46S2ZhOeooE?si=OvOc0oJ7FajFvmZj
 
-6. **Last step: attach the head to the body**
+7. **Last step: attach the head to the body**
   
    TurboPi Assembly: Assemble Pan Tilt + Expansion Board Cover: https://youtu.be/vKcvwtmXHYs?si=jLAC-dm6xtmcSF
 
